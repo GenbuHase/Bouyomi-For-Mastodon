@@ -2,33 +2,32 @@
 	"name": "bouyomi-for-mastodon",
 	"version": "1.0.0",
 	"description": "Allow Bouyomi to read your timeline on any instances",
-	
 	"keywords": [
 		"mastodon",
 		"mastodon-app",
 		"bouyomi"
 	],
-
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/GenbuHase/Bouyomi-For-Mastodon.git"
 	},
-
 	"bugs": {
 		"url": "https://github.com/GenbuHase/Bouyomi-For-Mastodon/issues"
 	},
-
 	"homepage": "https://github.com/GenbuHase/Bouyomi-For-Mastodon#readme",
-
 	"author": {
 		"name": "Genbu Hase",
 		"url": "https://genbuhase.github.io"
 	},
-	
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.16.3"
+	},
+	"devDependencies": {
+		"dotenv": "^6.0.0"
+	}
 }
